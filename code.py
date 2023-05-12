@@ -31,6 +31,7 @@ from keras.layers.core import Dense, Activation
 import keras
 
 # Optimized model
+# The optimal iteration model times obtained in the PSO optimization process were substituted back into the CNN model
 np.random.seed(10)
 modelfile = 'D:\Machine\model.h5' 
 def getData():
